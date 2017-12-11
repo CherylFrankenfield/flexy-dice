@@ -59,10 +59,70 @@ span {
   justify-content: space-between;
 }
 
-.second-face .pip:nth-child(1) {
-  align-self: flex-start;
-}
-
 .second-face .pip:nth-child(2) {
   align-self: flex-end;
+}
+
+/*third-face*/
+.third-face {
+  justify-content: space-between;
+}
+
+.third-face .pip:nth-child(2) {
+  align-self: center;
+}
+
+.third-face .pip:nth-child(3) {
+  align-self: flex-end;
+}
+
+
+/*fourth-face*/
+.fourth-face  {
+  justify-content: space-between;
+}
+
+.fourth-face .column:nth-child(1) {
+  flex-direction: column;
+}
+
+.fourth-face .column:nth-child(2) {
+  flex-direction: column;
+}
+
+.fourth-face .column:nth-child(1) {
+  justify-content: space-between;
+
+}
+
+.fourth-face .column:nth-child(2) {
+  justify-content: space-between;
+}
+
+
+/*fifth-space*/
+.fifth-face  {
+  justify-content: space-between;
+}
+
+.fifth-face .column:nth-child(1), .fifth-face .column:nth-child(3) {
+  flex-direction: column;
+}
+
+.fifth-face .column:nth-child(2) {
+  align-items: center;
+}
+
+.fifth-face .column:nth-child(1), .fifth-face .column:nth-child(3) {
+  justify-content: space-between;
+}
+
+/*sixth-face*/
+.sixth-face .column {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sixth-face {
+  justify-content: space-between;
 }
