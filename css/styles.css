@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.flex-container {
+  display: flex;
+  background-color: black;
+  height: 200px;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+}
+
+span {
+  border-radius: 50%;
+  background-color: black;
+  height: 25px;
+  width: 25px;
+
+}
+
+
+.first-face, .second-face, .third-face {
+  display: flex;
+  background-color: white;
+  border-radius: 5%;
+  padding: 0.5%;
+  margin: 2%;
+  height: 150px;
+  width: 150px;
+}
+
+.fourth-face, .fifth-face, .sixth-face {
+  display: flex;
+  background-color: white;
+  border-radius: 5%;
+  padding: 0.5%;
+  margin: 2%;
+  height: 150px;
+  width: 150px;
+}
+
+/* pip placement with flexy flex flex */
+.first-face {
+  justify-content: center;
+  align-items: center;
+}
+
+.second-face {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.second-face .pip:nth-child(1) {
+  align-self: flex-start;
+}
+
+.second-face .pip:nth-child(2) {
+  align-self: flex-end;
+}
